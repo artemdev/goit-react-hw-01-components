@@ -1,0 +1,33 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.item {
+  position: relative;
+  height: 70px;
+  width: 200px;
+  background-color: #efebe9;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.avatar {
+}
+
+.name {
+  color: #757575;
+}
+.status {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  display: block;
+  width: 10px;
+  height: 10px;
+  content: '';
+  border-radius: 50%;
+}

@@ -1,0 +1,17 @@
+.transactions {
+  width: 450px;
+}
+
+.title {
+  background: #64b5f6;
+  height: 50px;
+}
+.titleItem {
+  height: 50px;
+  color: #e0f2f1;
+}
+
+.item {
+  height: 50px;
+  background-color: #e0f7fa;
+}
