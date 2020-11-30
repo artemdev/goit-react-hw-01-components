@@ -41,7 +41,7 @@ export default function Profile({
         </li>
       </ul>
 
-      <StatisticsList stats={stats} />
+      <StatisticsList title="Upload stats" stats={stats} />
       <FriendsList friends={friends} />
       <TransactionHistory items={transactions} />
     </div>

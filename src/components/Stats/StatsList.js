@@ -3,10 +3,11 @@ import StatsItem from './StatsItem';
 
 import style from './stats.module.css';
 
-export default function StatisticsList({ stats }) {
+export default function StatisticsList({ title = false, stats }) {
   return (
     <section className={style.statistics}>
-      <h2 className={style.title}>Upload stats</h2>
+      <h2 className={title ? style.title : null}>{title}</h2>
+
       <ul className={style.statList}>
         {stats.map(item => {
           return (

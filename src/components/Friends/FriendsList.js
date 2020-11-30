@@ -1,4 +1,3 @@
-// import FriendItem from './FriendsItem'
 import style from './friends.module.css';
 
 export default function FriendList({ friends }) {
@@ -11,8 +10,8 @@ export default function FriendList({ friends }) {
               className={style.status}
               style={
                 friend.isOnline
-                  ? { backgroundColor: 'green' }
-                  : { backgroundColor: 'black' }
+                  ? { backgroundColor: '#aed581' }
+                  : { backgroundColor: 'grey' }
               }
             >
               {' '}

@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import style from './stats.module.css';
+
 export default function StatisticsItem({ label, percentage }) {
   return (
     <div className={style.statItem}>

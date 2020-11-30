@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 
-//вопрос: можно ли данные импортировать здесь и не передавать в компонент аргументов
 import styles from './transactions.module.css';
 
 export default function TransactionHistory({ items }) {
